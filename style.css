@@ -140,15 +140,16 @@ body{
 .two-column-wrapper{
     display: grid;
     grid-template-columns:1fr 1fr;
-}
 
-.profile-image-wrapper img {
-    background-size: cover;   
-    width:90%;
-    height:60%;
-    padding-top: 10px;
-    padding-left: 10px;
+}
+.profile-image-wrapper{
+    padding-top: 30px;
     
+}
+.profile-image-wrapper img {   
+    width: 90%;
+    height: 60%;
+    padding:30px;
     
 }
 
@@ -159,6 +160,7 @@ body{
 
 .profile-content-wrapper h1{
     color: lightseagreen;
+    text-align: center;
 }
 
 .footer{
@@ -173,3 +175,4 @@ body{
 .footer p{
     padding: 10px 0 10px 0;
 }
+
