@@ -1,3 +1,10 @@
+/**{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
  body{
     margin: 0;
     width:100%;
@@ -109,8 +116,8 @@
     align-items: center;
     height: 100%;
     text-align:center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .logo-wrapper img{
@@ -121,10 +128,12 @@
 }
 
 .img-text-wrapper .subtitle{
+    display: flex;
+    justify-content: center;
     transition: 1s;
     font-weight: 600;
     color:transparent;
-    text-align: center;
+    
 }
 
 .img-text-wrapper:hover .subtitle{
@@ -176,4 +185,8 @@
 
 .footer p{
     padding: 10px 0 10px 0;
+}
+
+@media screen, (max-width: 768px) (min-width: 768px){
+
 }
