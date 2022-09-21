@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: larger;
 }
 
 .nav a{
@@ -28,6 +29,7 @@
     text-decoration: none;
     display:block;
     transition: all 0.3s ease-out;
+    font-size: larger;
 }
 
 .nav a:hover{
@@ -54,7 +56,7 @@
 }
 
 .hero-inner{
-   max-width:760px;
+   max-width:960px;
 
 }
 
@@ -65,7 +67,8 @@
 }
 
 .hero p{
-    font-size: 1.18rem;
+    font-family: sans-serif;
+    font-size: larger;
     line-height: 1.6;
 }
 
@@ -161,11 +164,13 @@
     width: 90%;
     height: 60%;
     padding:30px;
-    
+    position:relative;
 }
 
 .profile-content-wrapper{
     padding:30px;
+    font-size: large;
+    font-family: sans-serif;
 
 }
 
@@ -179,8 +184,7 @@
     background-color: rgba(255, 228, 196, 0.747);
     color: grey;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .footer p{
